@@ -63,6 +63,9 @@ h2{
     text-align: center;
     font-size: large;
 }
+p{
+    font-size: smaller;
+}
 .kepek{
     display: grid;
     grid-template-columns: auto auto;
@@ -71,9 +74,19 @@ h2{
 .kepek img{
     height: 80px;
     width: 130px;
-    image-orientation: 30grad;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 5px;
+    padding-bottom: 15px ;
+    box-shadow: 5px 5px rgb(209, 207, 207);
+    border: 1px solid rgb(179, 177, 177);   
 }   
-
+.paratlan{
+    rotate: -10grad;  
+}
+.paros{
+    rotate: 10grad; 
+}
 .lablec{
     padding-block: 0.1rem;
     max-width: 1000px;
